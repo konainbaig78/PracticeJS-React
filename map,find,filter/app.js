@@ -66,12 +66,29 @@ console.log(outOfStock);*/
 // const idFind=students.find(students=>students.id===3)
 // console.log(idFind);
 
+// const students = [
+//   { name: "Ali", score: 88 },
+//   { name: "Sana", score: 92 },
+//   { name: "Hamza", score: 79 }
+// ];
+// const topScore=students.find(students=>students.score>90)
+// console.log(topScore);
+
+
 
 //includes()
 
 // const fruits = ["apple", "banana", "mango"];
 // const findFruit=fruits.includes("apple")
 // console.log(findFruit);
+
+// const cart = ["milk", "bread", "eggs"];
+// const outOfStock = ["bread", "jam"];
+// const hasOutOfStockItem = cart.some(item => outOfStock.includes(item));
+
+// console.log(hasOutOfStockItem);
+
+
 
 //forEach loop
 
@@ -87,6 +104,15 @@ console.log(outOfStock);*/
 // const sumEven= nums.filter(nums=>nums%2 === 0 ).reduce((sum,nums)=>sum+nums,0)
 // console.log(sumEven);
 
+// const trips = [
+//   { from: "A", to: "B", fare: 50 },
+//   { from: "B", to: "C", fare: 70 },
+//   { from: "C", to: "A", fare: 60 }
+// ];
+// const totalFare=trips.reduce((total,fare)=>total+fare.fare,0)
+// console.log(totalFare);
+
+
 //Set
 //help in storing unique values of any type
 //Unique Elements
@@ -95,4 +121,29 @@ console.log(outOfStock);*/
 // const uniqueValue=[...new Set(arr)]
 // console.log(uniqueValue);
 
- 
+// const emails = ["a@gmail.com", "b@gmail.com", "a@gmail.com", "c@yahoo.com", "b@gmail.com"];
+// const uniqueEmails=[...new Set(emails)]
+// console.log(uniqueEmails);
+
+//  const people = [
+//   { name: "Areeba", age: 17 },
+//   { name: "Zara", age: 22 },
+//   { name: "Hassan", age: 19 }
+// ];
+// const adult=people.filter(adult=>adult.age>18).length
+// console.log(adult);
+
+//10% discount
+// const products = [
+//   { name: "Laptop", price: 5000 },
+//   { name: "Mouse", price: 500 },
+//   { name: "Keyboard", price: 1500 }
+// ];
+// const discount=products.map((product)=>product.price>1000 ? product.price * 0.9 : product.price)
+// console.log(discount);
+
+// const friends = ["Bilal", "Asad", "Zoya", "Ali", "Ahmed"];
+// const nameA=friends.find(name=>name.startsWith("A"))
+// console.log(nameA);
+
+
