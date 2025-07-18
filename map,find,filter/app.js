@@ -89,7 +89,7 @@ console.log(outOfStock);*/
 // console.log(hasOutOfStockItem);
 
 
-
+=92 3337481713
 //forEach loop
 
 // const names = ["Sara", "Ayesha", "Iqra"];
